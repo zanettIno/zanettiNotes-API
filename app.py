@@ -75,5 +75,5 @@ def listar_tarefas():
     
     return jsonify([dict(tarefa) for tarefa in tarefas]), 200
 
-
-   
+if __name__ == '__main__':
+    app.run(debug=False, port=0000)
